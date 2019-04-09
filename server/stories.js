@@ -69,6 +69,7 @@ router.get("/all", async (req, res) => {
 
 // get single story
 router.get("/:storyId", async (req, res) => {
+    console.log("trying to get story")
     // return story
     try {
         let stories = await Story.find({

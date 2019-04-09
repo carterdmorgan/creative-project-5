@@ -41,7 +41,7 @@
   color: #fff;
   font-size: 1.2em;
   padding: 20px 20px;
-  background-color: #F2385A;
+  background-color: blue;
   margin-bottom: 10px;
 }
 
@@ -57,7 +57,7 @@
 
 .pure-menu-link.router-link-exact-active {
   background: #fff;
-  color: #F2385A;
+  color: blue;
 }
 
 .content {

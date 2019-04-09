@@ -87,10 +87,8 @@ export default new Vuex.Store({
     },
     async getSingleStory(context, id) {
       try {
-        let response = await axios.get("/api/story/"+id);
+        let response = await axios.get("/api/stories/"+id);
         context.commit('setStories', response.data);
-        console.log("response")
-        console.log(response)
         return "";
       } catch (error) {
         return "";
