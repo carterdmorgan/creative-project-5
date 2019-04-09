@@ -1,6 +1,7 @@
 <template>
   <div class="home">
     <story-gallery :stories="stories" />
+    <a href=https://github.com/carterdmorgan/creative-project-5>GitHub Repo</a>
   </div>
 </template>
 
